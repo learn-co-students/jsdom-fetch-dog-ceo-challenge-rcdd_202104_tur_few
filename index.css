@@ -1,0 +1,26 @@
+#dog-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#dog-image-container > img {
+    width: 32vw;
+    height: 50vh;
+}
+
+
+
+#dog-breeds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dog-breeds > li:hover {
+    cursor: pointer;
+}
